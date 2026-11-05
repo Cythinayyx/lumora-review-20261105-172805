@@ -1,0 +1,1 @@
+var e=`/lumora-review-20261105-172805/assets/business-avatar-preset-Dbu4LpJo.png`,t={business_staff:`业务专员`},n=Object.freeze({id:`preview-business-staff`,name:`陈嘉宁`,role:`business_staff`,avatar:e});export{t as n,n as t};
