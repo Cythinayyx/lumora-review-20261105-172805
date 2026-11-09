@@ -1,3 +1,3 @@
-# Lumora review snapshot
+# Lumora review
 
-Frozen static presentation build, 2026-11-05. No application source or customer documents. Authentication and submissions are demonstrations.
+Static presentation snapshot, 2026-11-09. Client and business review flows. No backend or local reference/customer documents.

@@ -1,1 +1,0 @@
-import{b as e,lt as t}from"./index-BFKJhb-z.js";import{x as n}from"./PopperContent-GciQJz7s.js";function r(){let r=t();return{primitiveElement:r,currentElement:e(()=>[`#text`,`#comment`].includes(r.value?.$el.nodeName)?r.value?.$el.nextElementSibling:n(r))}}export{r as t};

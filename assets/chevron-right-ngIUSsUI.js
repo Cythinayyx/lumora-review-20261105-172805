@@ -1,1 +1,0 @@
-import{N as e}from"./PopperContent-GciQJz7s.js";var t=e({name:`chevron-right`,size:24,node:[[`path`,{d:`m9 18 6-6-6-6`,key:`mthhwq`}]]});export{t};

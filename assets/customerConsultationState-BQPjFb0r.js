@@ -1,1 +1,0 @@
-import{ct as e}from"./index-ZPAbLbix.js";var t=e({turns:[],draft:``,attachments:[],serviceId:null});export{t};
