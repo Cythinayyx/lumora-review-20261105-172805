@@ -1,0 +1,1183 @@
+{
+  "item": {
+    "id": "INC-SAMPLE-0001",
+    "serviceType": "incorporation",
+    "clientId": "local-reference-client",
+    "client": "张皓轩",
+    "submitter": {
+      "accountId": "local-demo-wangxm",
+      "name": "王小明",
+      "phone": "139****1488",
+      "wechat": "wangxm-demo",
+      "relation": "agent"
+    },
+    "subject": {
+      "type": "company",
+      "name": "ASTER DIGITAL SERVICES PTE. LTD."
+    },
+    "assignee": {
+      "id": "preview-business-staff",
+      "name": "陈嘉宁"
+    },
+    "secretaryCompany": null,
+    "company": "ASTER DIGITAL SERVICES PTE. LTD.",
+    "shortName": "Aster 软件服务（模拟）",
+    "stage": "collection",
+    "status": "待审核",
+    "responsibility": "staff",
+    "staffTodo": true,
+    "supplement": false,
+    "processedAt": null,
+    "counts": {
+      "approved": 0,
+      "pending": 5,
+      "correction": 0,
+      "missing": 0,
+      "draft": 0
+    },
+    "issue": "完整模拟申报，保留材料归属与遮挡问题供评审核对",
+    "latest": "已补齐公司信息、人员角色、内部合规与客户声明示例",
+    "updatedAt": "2026-11-05T10:29:00+08:00",
+    "waitingSince": "2026-11-05T10:29:00+08:00",
+    "members": 2,
+    "documents": []
+  },
+  "record": {
+    "id": "INC-SAMPLE-0001",
+    "revision": 0,
+    "status": "pending",
+    "submissions": [
+      {
+        "version": 1,
+        "submittedAt": "2026-11-05T10:29:00+08:00",
+        "fields": [
+          {
+            "id": "company-name",
+            "section": "company",
+            "label": "首选公司名称",
+            "value": "ASTER DIGITAL SERVICES PTE. LTD.",
+            "source": {
+              "state": "simulated"
+            }
+          },
+          {
+            "id": "company-alternative",
+            "section": "company",
+            "label": "备选公司名称（选填）",
+            "value": "ASTER SOFTWARE SOLUTIONS PTE. LTD.",
+            "source": {
+              "state": "simulated"
+            }
+          },
+          {
+            "id": "company-business",
+            "section": "company",
+            "label": "主营业务及 SSIC",
+            "value": "62011 · 软件及应用开发（不含游戏及网络安全）",
+            "source": {
+              "state": "simulated"
+            }
+          },
+          {
+            "id": "company-secondary-business",
+            "section": "company",
+            "label": "次要业务及 SSIC（选填）",
+            "value": "62021 · 信息技术咨询（不含网络安全）",
+            "source": {
+              "state": "simulated"
+            }
+          },
+          {
+            "id": "company-capital",
+            "section": "company",
+            "label": "注册资本及币种",
+            "value": "10,000 SGD",
+            "source": {
+              "state": "simulated"
+            }
+          },
+          {
+            "id": "company-paid-capital",
+            "section": "company",
+            "label": "拟实缴资本",
+            "value": "10,000 SGD",
+            "source": {
+              "state": "simulated"
+            }
+          },
+          {
+            "id": "company-address",
+            "section": "company",
+            "label": "注册地址安排",
+            "value": "由平台提供注册地址",
+            "source": {
+              "state": "simulated"
+            }
+          },
+          {
+            "id": "company-director",
+            "section": "people",
+            "label": "本地董事安排",
+            "value": "由平台安排本地董事",
+            "source": {
+              "state": "simulated"
+            }
+          },
+          {
+            "id": "sample-identity-name",
+            "section": "people",
+            "personId": "sample-identity",
+            "label": "身份证中文姓名",
+            "value": "张皓轩",
+            "source": {
+              "documentId": "doc-identity",
+              "state": "readable",
+              "region": {
+                "x": 0.22,
+                "y": 0.1,
+                "width": 0.17,
+                "height": 0.045
+              }
+            },
+            "personAttribute": "name"
+          },
+          {
+            "id": "sample-identity-sex",
+            "section": "people",
+            "personId": "sample-identity",
+            "label": "性别",
+            "value": "男",
+            "source": {
+              "documentId": "doc-identity",
+              "state": "readable",
+              "region": {
+                "x": 0.22,
+                "y": 0.15,
+                "width": 0.06,
+                "height": 0.04
+              }
+            }
+          },
+          {
+            "id": "sample-identity-birth",
+            "section": "people",
+            "personId": "sample-identity",
+            "label": "出生日期",
+            "value": "1995-06-15",
+            "source": {
+              "documentId": "doc-identity",
+              "state": "readable",
+              "region": {
+                "x": 0.22,
+                "y": 0.2,
+                "width": 0.3,
+                "height": 0.04
+              }
+            }
+          },
+          {
+            "id": "sample-identity-ethnicity",
+            "section": "people",
+            "personId": "sample-identity",
+            "label": "民族",
+            "value": "汉",
+            "source": {
+              "documentId": "doc-identity",
+              "state": "readable",
+              "region": {
+                "x": 0.38,
+                "y": 0.15,
+                "width": 0.05,
+                "height": 0.04
+              }
+            }
+          },
+          {
+            "id": "sample-identity-number",
+            "section": "people",
+            "personId": "sample-identity",
+            "label": "居民身份证号码",
+            "value": "110108199506150014",
+            "source": {
+              "documentId": "doc-identity",
+              "state": "readable",
+              "region": {
+                "x": 0.34,
+                "y": 0.4,
+                "width": 0.5,
+                "height": 0.045
+              },
+              "note": "按样例卡面文字展示，未校验号码真伪。"
+            }
+          },
+          {
+            "id": "sample-identity-address",
+            "section": "people",
+            "personId": "sample-identity",
+            "label": "证件登记住址",
+            "value": "北京市海淀区学院路37号院景园小区6号楼2单元502室",
+            "source": {
+              "documentId": "doc-identity",
+              "state": "readable",
+              "region": {
+                "x": 0.22,
+                "y": 0.25,
+                "width": 0.4,
+                "height": 0.065
+              },
+              "note": "这是证件登记住址，不自动作为当前居住地址。"
+            }
+          },
+          {
+            "id": "sample-identity-authority",
+            "section": "people",
+            "personId": "sample-identity",
+            "label": "签发机关",
+            "value": "北京市公安局海淀分局",
+            "source": {
+              "documentId": "doc-identity",
+              "state": "readable",
+              "region": {
+                "x": 0.39,
+                "y": 0.85,
+                "width": 0.33,
+                "height": 0.035
+              }
+            }
+          },
+          {
+            "id": "sample-identity-validity",
+            "section": "people",
+            "personId": "sample-identity",
+            "label": "身份证有效期",
+            "value": "2024-05-20 至 2034-05-20",
+            "source": {
+              "documentId": "doc-identity",
+              "state": "readable",
+              "region": {
+                "x": 0.39,
+                "y": 0.9,
+                "width": 0.36,
+                "height": 0.035
+              }
+            }
+          },
+          {
+            "id": "sample-identity-roles",
+            "section": "people",
+            "personId": "sample-identity",
+            "label": "本次申请角色",
+            "value": "董事 / 股东",
+            "source": {
+              "state": "simulated"
+            },
+            "personAttribute": "roles"
+          },
+          {
+            "id": "sample-address-name",
+            "section": "people",
+            "personId": "sample-address",
+            "label": "证明对象姓名",
+            "value": "李明轩",
+            "source": {
+              "documentId": "doc-address",
+              "state": "readable",
+              "region": {
+                "x": 0.39,
+                "y": 0.185,
+                "width": 0.08,
+                "height": 0.04
+              }
+            },
+            "personAttribute": "name"
+          },
+          {
+            "id": "sample-address-number",
+            "section": "people",
+            "personId": "sample-address",
+            "label": "身份证号码",
+            "value": "4201…1234（中间已遮挡）",
+            "source": {
+              "documentId": "doc-address",
+              "state": "redacted",
+              "region": {
+                "x": 0.6,
+                "y": 0.185,
+                "width": 0.24,
+                "height": 0.04
+              }
+            }
+          },
+          {
+            "id": "sample-address-phone",
+            "section": "people",
+            "personId": "sample-address",
+            "label": "联系电话",
+            "value": "138****5678",
+            "source": {
+              "documentId": "doc-address",
+              "state": "redacted",
+              "region": {
+                "x": 0.25,
+                "y": 0.23,
+                "width": 0.16,
+                "height": 0.035
+              }
+            }
+          },
+          {
+            "id": "sample-address-address",
+            "section": "people",
+            "personId": "sample-address",
+            "label": "现居住地址",
+            "value": "四川省成都市青羊区清风街道和美社区和美苑6栋2单元502号",
+            "source": {
+              "documentId": "doc-address",
+              "state": "readable",
+              "region": {
+                "x": 0.14,
+                "y": 0.35,
+                "width": 0.69,
+                "height": 0.04
+              }
+            }
+          },
+          {
+            "id": "sample-address-since",
+            "section": "people",
+            "personId": "sample-address",
+            "label": "开始居住时间",
+            "value": "2022年6月",
+            "source": {
+              "documentId": "doc-address",
+              "state": "readable",
+              "region": {
+                "x": 0.3,
+                "y": 0.31,
+                "width": 0.16,
+                "height": 0.04
+              }
+            }
+          },
+          {
+            "id": "sample-address-authority",
+            "section": "people",
+            "personId": "sample-address",
+            "label": "出具单位",
+            "value": "成都市青羊区清风街道和美社区居民委员会",
+            "source": {
+              "documentId": "doc-address",
+              "state": "readable",
+              "region": {
+                "x": 0.45,
+                "y": 0.61,
+                "width": 0.45,
+                "height": 0.04
+              }
+            }
+          },
+          {
+            "id": "sample-address-issued",
+            "section": "people",
+            "personId": "sample-address",
+            "label": "出具日期",
+            "value": "2025-05-20",
+            "source": {
+              "documentId": "doc-address",
+              "state": "readable",
+              "region": {
+                "x": 0.68,
+                "y": 0.65,
+                "width": 0.2,
+                "height": 0.04
+              }
+            }
+          },
+          {
+            "id": "sample-address-roles",
+            "section": "people",
+            "personId": "sample-address",
+            "label": "本次申请角色",
+            "value": "股东",
+            "source": {
+              "state": "simulated"
+            },
+            "personAttribute": "roles"
+          },
+          {
+            "id": "sample-identity-english",
+            "section": "people",
+            "label": "护照英文姓名",
+            "value": "ZHANG HAOXUAN",
+            "source": {
+              "state": "simulated"
+            },
+            "personId": "sample-identity"
+          },
+          {
+            "id": "sample-identity-share",
+            "section": "people",
+            "label": "持股比例",
+            "value": "60%",
+            "source": {
+              "state": "simulated"
+            },
+            "personId": "sample-identity"
+          },
+          {
+            "id": "sample-identity-contribution",
+            "section": "people",
+            "label": "出资金额",
+            "value": "6,000 SGD",
+            "source": {
+              "state": "simulated"
+            },
+            "personId": "sample-identity"
+          },
+          {
+            "id": "sample-identity-email",
+            "section": "people",
+            "label": "联系邮箱",
+            "value": "haoxuan@aster-demo.example",
+            "source": {
+              "state": "simulated"
+            },
+            "personId": "sample-identity"
+          },
+          {
+            "id": "sample-identity-occupation",
+            "section": "people",
+            "label": "职业",
+            "value": "软件工程师 / 创业者",
+            "source": {
+              "state": "simulated"
+            },
+            "personId": "sample-identity"
+          },
+          {
+            "id": "sample-address-english",
+            "section": "people",
+            "label": "护照英文姓名",
+            "value": "LI MINGXUAN",
+            "source": {
+              "state": "simulated"
+            },
+            "personId": "sample-address"
+          },
+          {
+            "id": "sample-address-share",
+            "section": "people",
+            "label": "持股比例",
+            "value": "40%",
+            "source": {
+              "state": "simulated"
+            },
+            "personId": "sample-address"
+          },
+          {
+            "id": "sample-address-contribution",
+            "section": "people",
+            "label": "出资金额",
+            "value": "4,000 SGD",
+            "source": {
+              "state": "simulated"
+            },
+            "personId": "sample-address"
+          },
+          {
+            "id": "sample-address-email",
+            "section": "people",
+            "label": "联系邮箱",
+            "value": "mingxuan@aster-demo.example",
+            "source": {
+              "state": "simulated"
+            },
+            "personId": "sample-address"
+          },
+          {
+            "id": "sample-address-occupation",
+            "section": "people",
+            "label": "职业",
+            "value": "企业运营管理",
+            "source": {
+              "state": "simulated"
+            },
+            "personId": "sample-address"
+          },
+          {
+            "id": "internal-purpose",
+            "section": "internal",
+            "label": "设立新加坡公司的目的",
+            "value": "面向新加坡及亚太企业客户提供软件服务，以订阅费及项目实施费取得收入",
+            "source": {
+              "state": "simulated"
+            }
+          },
+          {
+            "id": "internal-regions",
+            "section": "internal",
+            "label": "经营国家或地区",
+            "value": "新加坡、中国",
+            "source": {
+              "state": "simulated"
+            }
+          },
+          {
+            "id": "internal-funds",
+            "section": "internal",
+            "label": "资金来源",
+            "value": "两名股东的个人储蓄及过往工资收入，分别出资 6,000 SGD 和 4,000 SGD",
+            "source": {
+              "state": "simulated"
+            }
+          },
+          {
+            "id": "internal-nominee",
+            "section": "declaration",
+            "label": "是否存在代持或其他控制安排",
+            "value": "客户申报：无股权代持、无其他协议控制安排",
+            "source": {
+              "state": "simulated"
+            }
+          },
+          {
+            "id": "internal-pep",
+            "section": "declaration",
+            "label": "政治公众人物（PEP）及关联关系",
+            "value": "客户申报：两名股东及拟任董事均无相关情况",
+            "source": {
+              "state": "simulated"
+            }
+          },
+          {
+            "id": "internal-special-business",
+            "section": "declaration",
+            "label": "是否涉及虚拟资产等特殊业务",
+            "value": "客户申报：不涉及 ICO、加密货币或区块链相关业务",
+            "source": {
+              "state": "simulated"
+            }
+          },
+          {
+            "id": "declaration-accuracy",
+            "section": "declaration",
+            "label": "资料真实性声明",
+            "value": "已勾选：确认本次填写的信息及上传资料真实、完整",
+            "source": {
+              "state": "simulated"
+            }
+          },
+          {
+            "id": "declaration-data",
+            "section": "declaration",
+            "label": "尽职调查知悉与配合",
+            "value": "客户已确认知悉并配合本次公司设立的身份核验及尽职调查",
+            "source": {
+              "state": "simulated"
+            }
+          },
+          {
+            "id": "company-ep-plan",
+            "section": "company",
+            "label": "后续 EP 计划",
+            "value": "暂未确定",
+            "source": {
+              "state": "simulated"
+            }
+          },
+          {
+            "id": "declaration-nominee-director",
+            "section": "declaration",
+            "label": "提名董事安排",
+            "value": "由平台安排本地董事，具体任职方式待业务员核对",
+            "source": {
+              "state": "simulated"
+            }
+          },
+          {
+            "id": "sample-identity-nationality",
+            "section": "people",
+            "label": "国籍",
+            "value": "中国",
+            "personId": "sample-identity",
+            "source": {
+              "state": "simulated"
+            }
+          },
+          {
+            "id": "sample-identity-passport",
+            "section": "people",
+            "label": "护照号码",
+            "value": "尚未提供对应护照",
+            "personId": "sample-identity",
+            "source": {
+              "state": "missing",
+              "note": "需与该人员的护照信息页核对，不使用其他人员的护照。"
+            }
+          },
+          {
+            "id": "sample-identity-passport-expiry",
+            "section": "people",
+            "label": "护照到期日",
+            "value": "尚未提供对应护照",
+            "personId": "sample-identity",
+            "source": {
+              "state": "missing"
+            }
+          },
+          {
+            "id": "sample-address-nationality",
+            "section": "people",
+            "label": "国籍",
+            "value": "中国",
+            "personId": "sample-address",
+            "source": {
+              "state": "simulated"
+            }
+          },
+          {
+            "id": "sample-address-passport",
+            "section": "people",
+            "label": "护照号码",
+            "value": "尚未提供对应护照",
+            "personId": "sample-address",
+            "source": {
+              "state": "missing",
+              "note": "需与该人员的护照信息页核对，不使用其他人员的护照。"
+            }
+          },
+          {
+            "id": "sample-address-passport-expiry",
+            "section": "people",
+            "label": "护照到期日",
+            "value": "尚未提供对应护照",
+            "personId": "sample-address",
+            "source": {
+              "state": "missing"
+            }
+          },
+          {
+            "id": "sample-identity-phone",
+            "section": "people",
+            "label": "联系电话",
+            "value": "138****6208",
+            "personId": "sample-identity",
+            "source": {
+              "state": "simulated"
+            }
+          },
+          {
+            "id": "sample-identity-current-address",
+            "section": "people",
+            "label": "现居住地址",
+            "value": "尚未提供现居住地址证明",
+            "personId": "sample-identity",
+            "source": {
+              "state": "missing",
+              "note": "身份证登记住址不自动作为现居住地址。"
+            }
+          },
+          {
+            "id": "sample-address-birth",
+            "section": "people",
+            "label": "出生日期",
+            "value": "待补充身份证明后核对",
+            "personId": "sample-address",
+            "source": {
+              "state": "missing"
+            }
+          }
+        ],
+        "people": [
+          {
+            "id": "sample-identity",
+            "name": "张皓轩",
+            "roles": [
+              "董事",
+              "股东 60%"
+            ],
+            "kind": "person"
+          },
+          {
+            "id": "sample-address",
+            "name": "李明轩",
+            "roles": [
+              "股东 40%"
+            ],
+            "kind": "person"
+          }
+        ],
+        "documents": [
+          {
+            "id": "doc-identity",
+            "personId": "sample-identity",
+            "title": "身份证正反面",
+            "filename": "身份证正反面（文件夹示例）.png",
+            "revision": 1,
+            "pages": [],
+            "mimeType": "image/png",
+            "sourceUrl": "/__review-samples__/identity.png",
+            "reviewHints": [
+              {
+                "id": "identity-address",
+                "message": "张皓轩已提供身份证，当前未见其本人的住址证明。",
+                "suggestedReason": "请补充张皓轩本人的住址证明，文件需显示姓名和完整现居地址。",
+                "missingDocumentTitle": "居住地址证明"
+              }
+            ]
+          },
+          {
+            "id": "doc-address",
+            "personId": "sample-address",
+            "title": "居住地址证明",
+            "filename": "居住地址证明（文件夹示例）.png",
+            "revision": 1,
+            "pages": [],
+            "mimeType": "image/png",
+            "sourceUrl": "/__review-samples__/address.png",
+            "reviewHints": [
+              {
+                "id": "address-owner",
+                "message": "李明轩已提供住址证明，当前未见其本人的身份证明。",
+                "suggestedReason": "请补充李明轩本人的身份证明，确保姓名和证件信息清晰可读。",
+                "missingDocumentTitle": "身份证明"
+              }
+            ]
+          }
+        ],
+        "responses": {},
+        "changes": [],
+        "signing": {
+          "caseId": "INC-SAMPLE-0001",
+          "submissionVersion": 1,
+          "contentKey": "{\"people\":[{\"id\":\"sample-address\",\"name\":\"李明轩\",\"roles\":[\"股东 40%\"],\"kind\":\"person\"},{\"id\":\"sample-identity\",\"name\":\"张皓轩\",\"roles\":[\"股东 60%\",\"董事\"],\"kind\":\"person\"}],\"fields\":[{\"id\":\"company-address\",\"personId\":\"\",\"value\":\"由平台提供注册地址\"},{\"id\":\"company-alternative\",\"personId\":\"\",\"value\":\"ASTER SOFTWARE SOLUTIONS PTE. LTD.\"},{\"id\":\"company-business\",\"personId\":\"\",\"value\":\"62011 · 软件及应用开发（不含游戏及网络安全）\"},{\"id\":\"company-capital\",\"personId\":\"\",\"value\":\"10,000 SGD\"},{\"id\":\"company-director\",\"personId\":\"\",\"value\":\"由平台安排本地董事\"},{\"id\":\"company-ep-plan\",\"personId\":\"\",\"value\":\"暂未确定\"},{\"id\":\"company-name\",\"personId\":\"\",\"value\":\"ASTER DIGITAL SERVICES PTE. LTD.\"},{\"id\":\"company-paid-capital\",\"personId\":\"\",\"value\":\"10,000 SGD\"},{\"id\":\"company-secondary-business\",\"personId\":\"\",\"value\":\"62021 · 信息技术咨询（不含网络安全）\"},{\"id\":\"internal-funds\",\"personId\":\"\",\"value\":\"两名股东的个人储蓄及过往工资收入，分别出资 6,000 SGD 和 4,000 SGD\"},{\"id\":\"internal-purpose\",\"personId\":\"\",\"value\":\"面向新加坡及亚太企业客户提供软件服务，以订阅费及项目实施费取得收入\"},{\"id\":\"internal-regions\",\"personId\":\"\",\"value\":\"新加坡、中国\"},{\"id\":\"sample-address-address\",\"personId\":\"sample-address\",\"value\":\"四川省成都市青羊区清风街道和美社区和美苑6栋2单元502号\"},{\"id\":\"sample-address-birth\",\"personId\":\"sample-address\",\"value\":\"待补充身份证明后核对\"},{\"id\":\"sample-address-contribution\",\"personId\":\"sample-address\",\"value\":\"4,000 SGD\"},{\"id\":\"sample-address-email\",\"personId\":\"sample-address\",\"value\":\"mingxuan@aster-demo.example\"},{\"id\":\"sample-address-english\",\"personId\":\"sample-address\",\"value\":\"LI MINGXUAN\"},{\"id\":\"sample-address-name\",\"personId\":\"sample-address\",\"value\":\"李明轩\"},{\"id\":\"sample-address-nationality\",\"personId\":\"sample-address\",\"value\":\"中国\"},{\"id\":\"sample-address-number\",\"personId\":\"sample-address\",\"value\":\"4201…1234（中间已遮挡）\"},{\"id\":\"sample-address-occupation\",\"personId\":\"sample-address\",\"value\":\"企业运营管理\"},{\"id\":\"sample-address-passport\",\"personId\":\"sample-address\",\"value\":\"尚未提供对应护照\"},{\"id\":\"sample-address-passport-expiry\",\"personId\":\"sample-address\",\"value\":\"尚未提供对应护照\"},{\"id\":\"sample-address-phone\",\"personId\":\"sample-address\",\"value\":\"138****5678\"},{\"id\":\"sample-address-roles\",\"personId\":\"sample-address\",\"value\":\"股东\"},{\"id\":\"sample-address-share\",\"personId\":\"sample-address\",\"value\":\"40%\"},{\"id\":\"sample-identity-address\",\"personId\":\"sample-identity\",\"value\":\"北京市海淀区学院路37号院景园小区6号楼2单元502室\"},{\"id\":\"sample-identity-birth\",\"personId\":\"sample-identity\",\"value\":\"1995-06-15\"},{\"id\":\"sample-identity-contribution\",\"personId\":\"sample-identity\",\"value\":\"6,000 SGD\"},{\"id\":\"sample-identity-current-address\",\"personId\":\"sample-identity\",\"value\":\"尚未提供现居住地址证明\"},{\"id\":\"sample-identity-email\",\"personId\":\"sample-identity\",\"value\":\"haoxuan@aster-demo.example\"},{\"id\":\"sample-identity-english\",\"personId\":\"sample-identity\",\"value\":\"ZHANG HAOXUAN\"},{\"id\":\"sample-identity-name\",\"personId\":\"sample-identity\",\"value\":\"张皓轩\"},{\"id\":\"sample-identity-nationality\",\"personId\":\"sample-identity\",\"value\":\"中国\"},{\"id\":\"sample-identity-number\",\"personId\":\"sample-identity\",\"value\":\"110108199506150014\"},{\"id\":\"sample-identity-occupation\",\"personId\":\"sample-identity\",\"value\":\"软件工程师 / 创业者\"},{\"id\":\"sample-identity-passport\",\"personId\":\"sample-identity\",\"value\":\"尚未提供对应护照\"},{\"id\":\"sample-identity-passport-expiry\",\"personId\":\"sample-identity\",\"value\":\"尚未提供对应护照\"},{\"id\":\"sample-identity-phone\",\"personId\":\"sample-identity\",\"value\":\"138****6208\"},{\"id\":\"sample-identity-roles\",\"personId\":\"sample-identity\",\"value\":\"董事 / 股东\"},{\"id\":\"sample-identity-sex\",\"personId\":\"sample-identity\",\"value\":\"男\"},{\"id\":\"sample-identity-share\",\"personId\":\"sample-identity\",\"value\":\"60%\"},{\"id\":\"sample-identity-validity\",\"personId\":\"sample-identity\",\"value\":\"2024-05-20 至 2034-05-20\"}],\"documents\":[{\"id\":\"doc-address\",\"personId\":\"sample-address\",\"revision\":1,\"filename\":\"居住地址证明（文件夹示例）.png\",\"blobKey\":\"\",\"sourceUrl\":\"/__review-samples__/address.png\"},{\"id\":\"doc-identity\",\"personId\":\"sample-identity\",\"revision\":1,\"filename\":\"身份证正反面（文件夹示例）.png\",\"blobKey\":\"\",\"sourceUrl\":\"/__review-samples__/identity.png\"}]}",
+          "members": [
+            {
+              "personId": "sample-identity",
+              "representedCompanies": [],
+              "tasks": [
+                {
+                  "id": "sample-identity-corporate_cdd-v1",
+                  "kind": "corporate_cdd",
+                  "documentVersion": 1,
+                  "state": "signed",
+                  "receipt": {
+                    "id": "SR-1-1-1",
+                    "caseId": "INC-SAMPLE-0001",
+                    "memberId": "sample-identity",
+                    "taskId": "sample-identity-corporate_cdd-v1",
+                    "documentVersion": 1,
+                    "source": "local_example",
+                    "signer": "张皓轩",
+                    "completedAt": "2026-11-05T10:18:00+08:00",
+                    "confirmation": "我已阅读并核对本文件全部内容及声明，确认资料真实，并具有本次签署权限。",
+                    "file": {
+                      "filename": "企业背景尽调表-张皓轩-V1",
+                      "signature": "张皓轩",
+                      "sections": [
+                        {
+                          "title": "公司与经营信息",
+                          "rows": [
+                            {
+                              "label": "首选公司名称",
+                              "value": "ASTER DIGITAL SERVICES PTE. LTD."
+                            },
+                            {
+                              "label": "备选公司名称（选填）",
+                              "value": "ASTER SOFTWARE SOLUTIONS PTE. LTD."
+                            },
+                            {
+                              "label": "主营业务及 SSIC",
+                              "value": "62011 · 软件及应用开发（不含游戏及网络安全）"
+                            },
+                            {
+                              "label": "次要业务及 SSIC（选填）",
+                              "value": "62021 · 信息技术咨询（不含网络安全）"
+                            },
+                            {
+                              "label": "注册资本及币种",
+                              "value": "10,000 SGD"
+                            },
+                            {
+                              "label": "拟实缴资本",
+                              "value": "10,000 SGD"
+                            },
+                            {
+                              "label": "注册地址安排",
+                              "value": "由平台提供注册地址"
+                            },
+                            {
+                              "label": "设立新加坡公司的目的",
+                              "value": "面向新加坡及亚太企业客户提供软件服务，以订阅费及项目实施费取得收入"
+                            },
+                            {
+                              "label": "经营国家或地区",
+                              "value": "新加坡、中国"
+                            },
+                            {
+                              "label": "资金来源",
+                              "value": "两名股东的个人储蓄及过往工资收入，分别出资 6,000 SGD 和 4,000 SGD"
+                            },
+                            {
+                              "label": "后续 EP 计划",
+                              "value": "暂未确定"
+                            }
+                          ]
+                        },
+                        {
+                          "title": "董事与股东",
+                          "rows": [
+                            {
+                              "label": "张皓轩",
+                              "value": "董事 / 股东 60% · 60%"
+                            },
+                            {
+                              "label": "李明轩",
+                              "value": "股东 40% · 40%"
+                            }
+                          ]
+                        },
+                        {
+                          "title": "声明与签字",
+                          "rows": [
+                            {
+                              "label": "本人声明",
+                              "value": "我在本表中所提供的信息是真实和准确的。我明白，提供虚假或具误导性信息或不提供信息可能遭到刑事处分。"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": "sample-identity-personal_cdd-v1",
+                  "kind": "personal_cdd",
+                  "documentVersion": 1,
+                  "state": "signed",
+                  "receipt": {
+                    "id": "SR-1-1-2",
+                    "caseId": "INC-SAMPLE-0001",
+                    "memberId": "sample-identity",
+                    "taskId": "sample-identity-personal_cdd-v1",
+                    "documentVersion": 1,
+                    "source": "local_example",
+                    "signer": "张皓轩",
+                    "completedAt": "2026-11-05T10:23:00+08:00",
+                    "confirmation": "我已阅读并核对本文件全部内容及声明，确认资料真实，由本人签署。",
+                    "file": {
+                      "filename": "个人及受益人声明表-张皓轩-V1",
+                      "signature": "张皓轩",
+                      "sections": [
+                        {
+                          "title": "个人与任职信息",
+                          "rows": [
+                            {
+                              "label": "身份证中文姓名",
+                              "value": "张皓轩"
+                            },
+                            {
+                              "label": "性别",
+                              "value": "男"
+                            },
+                            {
+                              "label": "出生日期",
+                              "value": "1995-06-15"
+                            },
+                            {
+                              "label": "居民身份证号码",
+                              "value": "110108199506150014"
+                            },
+                            {
+                              "label": "证件登记住址",
+                              "value": "北京市海淀区学院路37号院景园小区6号楼2单元502室"
+                            },
+                            {
+                              "label": "身份证有效期",
+                              "value": "2024-05-20 至 2034-05-20"
+                            },
+                            {
+                              "label": "本次申请角色",
+                              "value": "董事 / 股东"
+                            },
+                            {
+                              "label": "护照英文姓名",
+                              "value": "ZHANG HAOXUAN"
+                            },
+                            {
+                              "label": "持股比例",
+                              "value": "60%"
+                            },
+                            {
+                              "label": "出资金额",
+                              "value": "6,000 SGD"
+                            },
+                            {
+                              "label": "联系邮箱",
+                              "value": "haoxuan@aster-demo.example"
+                            },
+                            {
+                              "label": "职业",
+                              "value": "软件工程师 / 创业者"
+                            },
+                            {
+                              "label": "国籍",
+                              "value": "中国"
+                            },
+                            {
+                              "label": "护照号码",
+                              "value": "尚未提供对应护照"
+                            },
+                            {
+                              "label": "护照到期日",
+                              "value": "尚未提供对应护照"
+                            },
+                            {
+                              "label": "联系电话",
+                              "value": "138****6208"
+                            },
+                            {
+                              "label": "现居住地址",
+                              "value": "尚未提供现居住地址证明"
+                            }
+                          ]
+                        },
+                        {
+                          "title": "声明与签字",
+                          "rows": [
+                            {
+                              "label": "本人声明",
+                              "value": "我在本表中所提供的信息是真实和准确的。我明白，提供虚假或具误导性信息或不提供信息可能遭到刑事处分。"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": "sample-identity-video_verif-v1",
+                  "kind": "video_verif",
+                  "documentVersion": 1,
+                  "state": "pending"
+                }
+              ]
+            },
+            {
+              "personId": "sample-address",
+              "representedCompanies": [],
+              "tasks": [
+                {
+                  "id": "sample-address-corporate_cdd-v1",
+                  "kind": "corporate_cdd",
+                  "documentVersion": 1,
+                  "state": "signed",
+                  "receipt": {
+                    "id": "SR-1-2-1",
+                    "caseId": "INC-SAMPLE-0001",
+                    "memberId": "sample-address",
+                    "taskId": "sample-address-corporate_cdd-v1",
+                    "documentVersion": 1,
+                    "source": "local_example",
+                    "signer": "李明轩",
+                    "completedAt": "2026-11-05T10:18:00+08:00",
+                    "confirmation": "我已阅读并核对本文件全部内容及声明，确认资料真实，并具有本次签署权限。",
+                    "file": {
+                      "filename": "企业背景尽调表-李明轩-V1",
+                      "signature": "李明轩",
+                      "sections": [
+                        {
+                          "title": "公司与经营信息",
+                          "rows": [
+                            {
+                              "label": "首选公司名称",
+                              "value": "ASTER DIGITAL SERVICES PTE. LTD."
+                            },
+                            {
+                              "label": "备选公司名称（选填）",
+                              "value": "ASTER SOFTWARE SOLUTIONS PTE. LTD."
+                            },
+                            {
+                              "label": "主营业务及 SSIC",
+                              "value": "62011 · 软件及应用开发（不含游戏及网络安全）"
+                            },
+                            {
+                              "label": "次要业务及 SSIC（选填）",
+                              "value": "62021 · 信息技术咨询（不含网络安全）"
+                            },
+                            {
+                              "label": "注册资本及币种",
+                              "value": "10,000 SGD"
+                            },
+                            {
+                              "label": "拟实缴资本",
+                              "value": "10,000 SGD"
+                            },
+                            {
+                              "label": "注册地址安排",
+                              "value": "由平台提供注册地址"
+                            },
+                            {
+                              "label": "设立新加坡公司的目的",
+                              "value": "面向新加坡及亚太企业客户提供软件服务，以订阅费及项目实施费取得收入"
+                            },
+                            {
+                              "label": "经营国家或地区",
+                              "value": "新加坡、中国"
+                            },
+                            {
+                              "label": "资金来源",
+                              "value": "两名股东的个人储蓄及过往工资收入，分别出资 6,000 SGD 和 4,000 SGD"
+                            },
+                            {
+                              "label": "后续 EP 计划",
+                              "value": "暂未确定"
+                            }
+                          ]
+                        },
+                        {
+                          "title": "董事与股东",
+                          "rows": [
+                            {
+                              "label": "张皓轩",
+                              "value": "董事 / 股东 60% · 60%"
+                            },
+                            {
+                              "label": "李明轩",
+                              "value": "股东 40% · 40%"
+                            }
+                          ]
+                        },
+                        {
+                          "title": "声明与签字",
+                          "rows": [
+                            {
+                              "label": "本人声明",
+                              "value": "我在本表中所提供的信息是真实和准确的。我明白，提供虚假或具误导性信息或不提供信息可能遭到刑事处分。"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": "sample-address-personal_cdd-v1",
+                  "kind": "personal_cdd",
+                  "documentVersion": 1,
+                  "state": "signed",
+                  "receipt": {
+                    "id": "SR-1-2-2",
+                    "caseId": "INC-SAMPLE-0001",
+                    "memberId": "sample-address",
+                    "taskId": "sample-address-personal_cdd-v1",
+                    "documentVersion": 1,
+                    "source": "local_example",
+                    "signer": "李明轩",
+                    "completedAt": "2026-11-05T10:23:00+08:00",
+                    "confirmation": "我已阅读并核对本文件全部内容及声明，确认资料真实，由本人签署。",
+                    "file": {
+                      "filename": "个人及受益人声明表-李明轩-V1",
+                      "signature": "李明轩",
+                      "sections": [
+                        {
+                          "title": "个人与任职信息",
+                          "rows": [
+                            {
+                              "label": "证明对象姓名",
+                              "value": "李明轩"
+                            },
+                            {
+                              "label": "身份证号码",
+                              "value": "4201…1234（中间已遮挡）"
+                            },
+                            {
+                              "label": "联系电话",
+                              "value": "138****5678"
+                            },
+                            {
+                              "label": "现居住地址",
+                              "value": "四川省成都市青羊区清风街道和美社区和美苑6栋2单元502号"
+                            },
+                            {
+                              "label": "本次申请角色",
+                              "value": "股东"
+                            },
+                            {
+                              "label": "护照英文姓名",
+                              "value": "LI MINGXUAN"
+                            },
+                            {
+                              "label": "持股比例",
+                              "value": "40%"
+                            },
+                            {
+                              "label": "出资金额",
+                              "value": "4,000 SGD"
+                            },
+                            {
+                              "label": "联系邮箱",
+                              "value": "mingxuan@aster-demo.example"
+                            },
+                            {
+                              "label": "职业",
+                              "value": "企业运营管理"
+                            },
+                            {
+                              "label": "国籍",
+                              "value": "中国"
+                            },
+                            {
+                              "label": "护照号码",
+                              "value": "尚未提供对应护照"
+                            },
+                            {
+                              "label": "护照到期日",
+                              "value": "尚未提供对应护照"
+                            },
+                            {
+                              "label": "出生日期",
+                              "value": "待补充身份证明后核对"
+                            }
+                          ]
+                        },
+                        {
+                          "title": "声明与签字",
+                          "rows": [
+                            {
+                              "label": "本人声明",
+                              "value": "我在本表中所提供的信息是真实和准确的。我明白，提供虚假或具误导性信息或不提供信息可能遭到刑事处分。"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": "sample-address-video_verif-v1",
+                  "kind": "video_verif",
+                  "documentVersion": 1,
+                  "state": "pending"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "issues": [],
+    "rounds": [],
+    "events": [
+      {
+        "label": "载入文件夹参考材料（模拟提交）",
+        "version": 1,
+        "at": "2026-11-05T10:29:00+08:00",
+        "actor": "customer"
+      }
+    ],
+    "draftSaved": false,
+    "customerDraft": null,
+    "sampleNote": "完整申请评审示例：公司、股权、合规及声明为模拟填报；5 份原图及可读字段保留。已遮挡或归属不明的材料仍需核对；模拟声明不代表实际授权或签署，尚未接入自动识别。"
+  }
+}
