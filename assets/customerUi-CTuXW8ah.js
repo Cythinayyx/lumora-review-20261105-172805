@@ -1,0 +1,1 @@
+import{ft as e}from"./index-Bu4mDL3J.js";var t=e(!1);e(`new`);var n=e(!1),r=e(`注册新加坡公司`),i=e(`资料准备`),a=e(!1),o=e(!1),s={name:`陈嘉宁`,role:`客户`,avatar:`/lumora-review-20261105-172805/images/customer/customer-avatar-preset.webp`};function c(e=`尚未选择业务`,t=`资料准备`){r.value=e,i.value=t,n.value=!0}export{r as a,c,s as i,o as n,n as o,t as r,i as s,a as t};
