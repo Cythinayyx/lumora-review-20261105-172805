@@ -1,3 +1,3 @@
 # Lumora review
 
-Static presentation snapshot, 2026-11-09. Client and business review flows. No backend or local reference/customer documents.
+Static presentation snapshot, 2026-11-18. Customer, business and secretary portals (switch roles from the sidebar). Demo data only; documents are redacted copies. No backend.

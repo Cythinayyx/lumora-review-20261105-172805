@@ -7,7 +7,7 @@
     "submitter": {
       "accountId": "local-demo-wangxm",
       "name": "王小明",
-      "phone": "139****1488",
+      "phone": "+86 139 8841 1488",
       "wechat": "wangxm-demo",
       "relation": "agent"
     },
@@ -660,7 +660,7 @@
             "id": "sample-identity-phone",
             "section": "people",
             "label": "联系电话",
-            "value": "138****6208",
+            "value": "+86 138 8026 6208",
             "personId": "sample-identity",
             "source": {
               "state": "simulated"
@@ -750,7 +750,7 @@
         "signing": {
           "caseId": "INC-SAMPLE-0001",
           "submissionVersion": 1,
-          "contentKey": "{\"people\":[{\"id\":\"sample-address\",\"name\":\"李明轩\",\"roles\":[\"股东 40%\"],\"kind\":\"person\"},{\"id\":\"sample-identity\",\"name\":\"张皓轩\",\"roles\":[\"股东 60%\",\"董事\"],\"kind\":\"person\"}],\"fields\":[{\"id\":\"company-address\",\"personId\":\"\",\"value\":\"由平台提供注册地址\"},{\"id\":\"company-alternative\",\"personId\":\"\",\"value\":\"ASTER SOFTWARE SOLUTIONS PTE. LTD.\"},{\"id\":\"company-business\",\"personId\":\"\",\"value\":\"62011 · 软件及应用开发（不含游戏及网络安全）\"},{\"id\":\"company-capital\",\"personId\":\"\",\"value\":\"10,000 SGD\"},{\"id\":\"company-director\",\"personId\":\"\",\"value\":\"由平台安排本地董事\"},{\"id\":\"company-ep-plan\",\"personId\":\"\",\"value\":\"暂未确定\"},{\"id\":\"company-name\",\"personId\":\"\",\"value\":\"ASTER DIGITAL SERVICES PTE. LTD.\"},{\"id\":\"company-paid-capital\",\"personId\":\"\",\"value\":\"10,000 SGD\"},{\"id\":\"company-secondary-business\",\"personId\":\"\",\"value\":\"62021 · 信息技术咨询（不含网络安全）\"},{\"id\":\"internal-funds\",\"personId\":\"\",\"value\":\"两名股东的个人储蓄及过往工资收入，分别出资 6,000 SGD 和 4,000 SGD\"},{\"id\":\"internal-purpose\",\"personId\":\"\",\"value\":\"面向新加坡及亚太企业客户提供软件服务，以订阅费及项目实施费取得收入\"},{\"id\":\"internal-regions\",\"personId\":\"\",\"value\":\"新加坡、中国\"},{\"id\":\"sample-address-address\",\"personId\":\"sample-address\",\"value\":\"四川省成都市青羊区清风街道和美社区和美苑6栋2单元502号\"},{\"id\":\"sample-address-birth\",\"personId\":\"sample-address\",\"value\":\"待补充身份证明后核对\"},{\"id\":\"sample-address-contribution\",\"personId\":\"sample-address\",\"value\":\"4,000 SGD\"},{\"id\":\"sample-address-email\",\"personId\":\"sample-address\",\"value\":\"mingxuan@aster-demo.example\"},{\"id\":\"sample-address-english\",\"personId\":\"sample-address\",\"value\":\"LI MINGXUAN\"},{\"id\":\"sample-address-name\",\"personId\":\"sample-address\",\"value\":\"李明轩\"},{\"id\":\"sample-address-nationality\",\"personId\":\"sample-address\",\"value\":\"中国\"},{\"id\":\"sample-address-number\",\"personId\":\"sample-address\",\"value\":\"4201…1234（中间已遮挡）\"},{\"id\":\"sample-address-occupation\",\"personId\":\"sample-address\",\"value\":\"企业运营管理\"},{\"id\":\"sample-address-passport\",\"personId\":\"sample-address\",\"value\":\"尚未提供对应护照\"},{\"id\":\"sample-address-passport-expiry\",\"personId\":\"sample-address\",\"value\":\"尚未提供对应护照\"},{\"id\":\"sample-address-phone\",\"personId\":\"sample-address\",\"value\":\"138****5678\"},{\"id\":\"sample-address-roles\",\"personId\":\"sample-address\",\"value\":\"股东\"},{\"id\":\"sample-address-share\",\"personId\":\"sample-address\",\"value\":\"40%\"},{\"id\":\"sample-identity-address\",\"personId\":\"sample-identity\",\"value\":\"北京市海淀区学院路37号院景园小区6号楼2单元502室\"},{\"id\":\"sample-identity-birth\",\"personId\":\"sample-identity\",\"value\":\"1995-06-15\"},{\"id\":\"sample-identity-contribution\",\"personId\":\"sample-identity\",\"value\":\"6,000 SGD\"},{\"id\":\"sample-identity-current-address\",\"personId\":\"sample-identity\",\"value\":\"尚未提供现居住地址证明\"},{\"id\":\"sample-identity-email\",\"personId\":\"sample-identity\",\"value\":\"haoxuan@aster-demo.example\"},{\"id\":\"sample-identity-english\",\"personId\":\"sample-identity\",\"value\":\"ZHANG HAOXUAN\"},{\"id\":\"sample-identity-name\",\"personId\":\"sample-identity\",\"value\":\"张皓轩\"},{\"id\":\"sample-identity-nationality\",\"personId\":\"sample-identity\",\"value\":\"中国\"},{\"id\":\"sample-identity-number\",\"personId\":\"sample-identity\",\"value\":\"110108199506150014\"},{\"id\":\"sample-identity-occupation\",\"personId\":\"sample-identity\",\"value\":\"软件工程师 / 创业者\"},{\"id\":\"sample-identity-passport\",\"personId\":\"sample-identity\",\"value\":\"尚未提供对应护照\"},{\"id\":\"sample-identity-passport-expiry\",\"personId\":\"sample-identity\",\"value\":\"尚未提供对应护照\"},{\"id\":\"sample-identity-phone\",\"personId\":\"sample-identity\",\"value\":\"138****6208\"},{\"id\":\"sample-identity-roles\",\"personId\":\"sample-identity\",\"value\":\"董事 / 股东\"},{\"id\":\"sample-identity-sex\",\"personId\":\"sample-identity\",\"value\":\"男\"},{\"id\":\"sample-identity-share\",\"personId\":\"sample-identity\",\"value\":\"60%\"},{\"id\":\"sample-identity-validity\",\"personId\":\"sample-identity\",\"value\":\"2024-05-20 至 2034-05-20\"}],\"documents\":[{\"id\":\"doc-address\",\"personId\":\"sample-address\",\"revision\":1,\"filename\":\"居住地址证明（文件夹示例）.png\",\"blobKey\":\"\",\"sourceUrl\":\"/__review-samples__/address.png\"},{\"id\":\"doc-identity\",\"personId\":\"sample-identity\",\"revision\":1,\"filename\":\"身份证正反面（文件夹示例）.png\",\"blobKey\":\"\",\"sourceUrl\":\"/__review-samples__/identity.png\"}]}",
+          "contentKey": "{\"people\":[{\"id\":\"sample-address\",\"name\":\"李明轩\",\"roles\":[\"股东 40%\"],\"kind\":\"person\"},{\"id\":\"sample-identity\",\"name\":\"张皓轩\",\"roles\":[\"股东 60%\",\"董事\"],\"kind\":\"person\"}],\"fields\":[{\"id\":\"company-address\",\"personId\":\"\",\"value\":\"由平台提供注册地址\"},{\"id\":\"company-alternative\",\"personId\":\"\",\"value\":\"ASTER SOFTWARE SOLUTIONS PTE. LTD.\"},{\"id\":\"company-business\",\"personId\":\"\",\"value\":\"62011 · 软件及应用开发（不含游戏及网络安全）\"},{\"id\":\"company-capital\",\"personId\":\"\",\"value\":\"10,000 SGD\"},{\"id\":\"company-director\",\"personId\":\"\",\"value\":\"由平台安排本地董事\"},{\"id\":\"company-ep-plan\",\"personId\":\"\",\"value\":\"暂未确定\"},{\"id\":\"company-name\",\"personId\":\"\",\"value\":\"ASTER DIGITAL SERVICES PTE. LTD.\"},{\"id\":\"company-paid-capital\",\"personId\":\"\",\"value\":\"10,000 SGD\"},{\"id\":\"company-secondary-business\",\"personId\":\"\",\"value\":\"62021 · 信息技术咨询（不含网络安全）\"},{\"id\":\"internal-funds\",\"personId\":\"\",\"value\":\"两名股东的个人储蓄及过往工资收入，分别出资 6,000 SGD 和 4,000 SGD\"},{\"id\":\"internal-purpose\",\"personId\":\"\",\"value\":\"面向新加坡及亚太企业客户提供软件服务，以订阅费及项目实施费取得收入\"},{\"id\":\"internal-regions\",\"personId\":\"\",\"value\":\"新加坡、中国\"},{\"id\":\"sample-address-address\",\"personId\":\"sample-address\",\"value\":\"四川省成都市青羊区清风街道和美社区和美苑6栋2单元502号\"},{\"id\":\"sample-address-birth\",\"personId\":\"sample-address\",\"value\":\"待补充身份证明后核对\"},{\"id\":\"sample-address-contribution\",\"personId\":\"sample-address\",\"value\":\"4,000 SGD\"},{\"id\":\"sample-address-email\",\"personId\":\"sample-address\",\"value\":\"mingxuan@aster-demo.example\"},{\"id\":\"sample-address-english\",\"personId\":\"sample-address\",\"value\":\"LI MINGXUAN\"},{\"id\":\"sample-address-name\",\"personId\":\"sample-address\",\"value\":\"李明轩\"},{\"id\":\"sample-address-nationality\",\"personId\":\"sample-address\",\"value\":\"中国\"},{\"id\":\"sample-address-number\",\"personId\":\"sample-address\",\"value\":\"4201…1234（中间已遮挡）\"},{\"id\":\"sample-address-occupation\",\"personId\":\"sample-address\",\"value\":\"企业运营管理\"},{\"id\":\"sample-address-passport\",\"personId\":\"sample-address\",\"value\":\"尚未提供对应护照\"},{\"id\":\"sample-address-passport-expiry\",\"personId\":\"sample-address\",\"value\":\"尚未提供对应护照\"},{\"id\":\"sample-address-phone\",\"personId\":\"sample-address\",\"value\":\"138****5678\"},{\"id\":\"sample-address-roles\",\"personId\":\"sample-address\",\"value\":\"股东\"},{\"id\":\"sample-address-share\",\"personId\":\"sample-address\",\"value\":\"40%\"},{\"id\":\"sample-identity-address\",\"personId\":\"sample-identity\",\"value\":\"北京市海淀区学院路37号院景园小区6号楼2单元502室\"},{\"id\":\"sample-identity-birth\",\"personId\":\"sample-identity\",\"value\":\"1995-06-15\"},{\"id\":\"sample-identity-contribution\",\"personId\":\"sample-identity\",\"value\":\"6,000 SGD\"},{\"id\":\"sample-identity-current-address\",\"personId\":\"sample-identity\",\"value\":\"尚未提供现居住地址证明\"},{\"id\":\"sample-identity-email\",\"personId\":\"sample-identity\",\"value\":\"haoxuan@aster-demo.example\"},{\"id\":\"sample-identity-english\",\"personId\":\"sample-identity\",\"value\":\"ZHANG HAOXUAN\"},{\"id\":\"sample-identity-name\",\"personId\":\"sample-identity\",\"value\":\"张皓轩\"},{\"id\":\"sample-identity-nationality\",\"personId\":\"sample-identity\",\"value\":\"中国\"},{\"id\":\"sample-identity-number\",\"personId\":\"sample-identity\",\"value\":\"110108199506150014\"},{\"id\":\"sample-identity-occupation\",\"personId\":\"sample-identity\",\"value\":\"软件工程师 / 创业者\"},{\"id\":\"sample-identity-passport\",\"personId\":\"sample-identity\",\"value\":\"尚未提供对应护照\"},{\"id\":\"sample-identity-passport-expiry\",\"personId\":\"sample-identity\",\"value\":\"尚未提供对应护照\"},{\"id\":\"sample-identity-phone\",\"personId\":\"sample-identity\",\"value\":\"+86 138 8026 6208\"},{\"id\":\"sample-identity-roles\",\"personId\":\"sample-identity\",\"value\":\"董事 / 股东\"},{\"id\":\"sample-identity-sex\",\"personId\":\"sample-identity\",\"value\":\"男\"},{\"id\":\"sample-identity-share\",\"personId\":\"sample-identity\",\"value\":\"60%\"},{\"id\":\"sample-identity-validity\",\"personId\":\"sample-identity\",\"value\":\"2024-05-20 至 2034-05-20\"}],\"documents\":[{\"id\":\"doc-address\",\"personId\":\"sample-address\",\"revision\":1,\"filename\":\"居住地址证明（文件夹示例）.png\",\"blobKey\":\"\",\"sourceUrl\":\"/__review-samples__/address.png\"},{\"id\":\"doc-identity\",\"personId\":\"sample-identity\",\"revision\":1,\"filename\":\"身份证正反面（文件夹示例）.png\",\"blobKey\":\"\",\"sourceUrl\":\"/__review-samples__/identity.png\"}]}",
           "members": [
             {
               "personId": "sample-identity",
@@ -934,7 +934,7 @@
                             },
                             {
                               "label": "联系电话",
-                              "value": "138****6208"
+                              "value": "+86 138 8026 6208"
                             },
                             {
                               "label": "现居住地址",
@@ -1163,6 +1163,17 @@
               ]
             }
           ]
+        },
+        "declaration": {
+          "signerPersonId": "sample-identity",
+          "signerName": "张皓轩",
+          "date": "2026-11-05",
+          "signature": {
+            "mode": "type",
+            "data": "张皓轩"
+          },
+          "reuseConsent": true,
+          "confirmedItems": 6
         }
       }
     ],
