@@ -1,0 +1,1 @@
+import{r as e}from"./secretarySession-BbdsA-6a.js";var t={business_staff:`业务专员`},n=Object.freeze({id:`preview-business-staff`,name:`陈嘉宁`,role:`business_staff`,avatar:e});export{t as n,n as t};
