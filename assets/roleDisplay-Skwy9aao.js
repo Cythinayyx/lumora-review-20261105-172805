@@ -1,0 +1,1 @@
+function e(e){return e.replace(/本地代理董事|本地董事|代理董事|名义董事|董事（新加坡常驻）/g,`常驻董事`)}export{e as t};
