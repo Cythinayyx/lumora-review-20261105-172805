@@ -1,0 +1,1 @@
+import{S as e,ft as t}from"./index-BXWt5O5M.js";import{p as n}from"./Teleport-FsX5uWK4.js";function r(){let r=t();return{primitiveElement:r,currentElement:e(()=>[`#text`,`#comment`].includes(r.value?.$el.nodeName)?r.value?.$el.nextElementSibling:n(r))}}export{r as t};
